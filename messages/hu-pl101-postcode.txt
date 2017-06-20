@@ -1,0 +1,9 @@
+GET http://localhost:8080/postcode?street=Padualaan&houseNumber=101&place=Utrecht
+
+ -- response --
+200 
+Content-Type:  application/json;charset=UTF-8
+Transfer-Encoding:  chunked
+Date:  Tue, 20 Jun 2017 16:44:16 GMT
+
+{"street":"Padualaan","place":"Utrecht","addition":"","houseNumber":101,"postcode":"3584CH"}

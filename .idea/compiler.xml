@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="HU-rest-service" />
         <module name="HU-RestService" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="HU-rest-service" target="1.8" />
       <module name="HU-RestService" target="1.8" />
     </bytecodeTargetLevel>
   </component>

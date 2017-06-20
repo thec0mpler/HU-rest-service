@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HU-RestService.iml" filepath="$PROJECT_DIR$/HU-RestService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HU-rest-service.iml" filepath="$PROJECT_DIR$/HU-rest-service.iml" />
     </modules>
   </component>
 </project>

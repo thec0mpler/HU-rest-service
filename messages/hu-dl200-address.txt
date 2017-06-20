@@ -1,0 +1,9 @@
+GET http://localhost:8080/address?postcode=3584BJ&houseNumber=200
+
+ -- response --
+200 
+Content-Type:  application/json;charset=UTF-8
+Transfer-Encoding:  chunked
+Date:  Tue, 20 Jun 2017 16:39:09 GMT
+
+{"street":"Daltonlaan","place":"UTRECHT","addition":"","houseNumber":200,"postcode":"3584BJ"}

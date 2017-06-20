@@ -1,0 +1,9 @@
+GET http://localhost:8080/postcode?street=Daltonlaan&houseNumber=200&place=Utrecht
+
+ -- response --
+200 
+Content-Type:  application/json;charset=UTF-8
+Transfer-Encoding:  chunked
+Date:  Tue, 20 Jun 2017 16:43:39 GMT
+
+{"street":"Daltonlaan","place":"Utrecht","addition":"","houseNumber":200,"postcode":"3584BJ"}

@@ -1,0 +1,10 @@
+GET http://localhost:8080/address?postcode=3584BJ
+
+ -- response --
+400 
+Content-Type:  application/json;charset=UTF-8
+Transfer-Encoding:  chunked
+Date:  Tue, 20 Jun 2017 16:40:57 GMT
+Connection:  close
+
+{"timestamp":1497976857620,"status":400,"error":"Bad Request","exception":"org.springframework.web.bind.MissingServletRequestParameterException","message":"Required int parameter 'houseNumber' is not present","path":"/address"}
